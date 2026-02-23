@@ -1,0 +1,106 @@
+body
+{
+    font-family: "Lato", sans-serif;
+}
+.header
+{
+    background-color: rgb(138, 205, 5);
+    color:white;
+    padding-left: 20px;
+    font-size:xx-large;
+}
+.input-form
+{
+    display:flex;
+    border:1px black;
+    justify-content: space-around;
+    width:95%;
+    border-radius: 8px;
+    box-shadow:2px 2px 5px rgb(133, 204, 5);
+    margin-top: 25px;
+    padding: 30px;
+    margin-left: 3%;
+}
+
+#add-btn
+{
+    background-color: rgb(138, 205, 5);
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    font-size:x-large;
+    font-weight: 600;
+    color:white;
+}
+#add-btn:hover {
+    background-color: rgb(110, 170, 4);
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.inputs
+{
+    width:30%;
+
+}
+.cards
+{
+    
+    display: flex;
+    width:95%;
+    justify-content: space-between;
+    margin-left:3%;
+    margin-top: 20px;
+}
+.card
+{
+    background-color: rgb(138, 205, 5);
+    border-radius: 5px;
+    color:white;
+}
+
+.amount-display {
+    display: flex;
+    align-items: center; /* Vertically align icon and text */
+    gap: 4px; /* Space between icon and text */
+}
+
+.amount-value {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.material-symbols-outlined {
+    font-size: 30px; /* Adjust icon size to match text */
+}
+.transaction-table
+{
+    border: 2px solid rgb(122, 101, 101);
+    margin-top: 30px;
+    width:95%;
+    margin-left:3%;
+    border-radius:2px;
+    font-weight: 700;
+    font-size: larger;
+}
+#thead
+{
+    background-color: rgb(138, 205, 5);
+   
+}
+#thead th
+{
+    padding:15px;
+    color:white;
+}
+
+table #delete
+{
+    background: rgb(236, 95, 95);
+    border:none;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+#delete:hover {
+    background: red;
+}
